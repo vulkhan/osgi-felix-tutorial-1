@@ -28,3 +28,8 @@ jar cfmv example2b.jar tutorial_example2b/manifest.mf -C ./classes tutorial/exam
 javac -d ./classes/ tutorial_example3/*.java -cp ./example2.jar:$LIB_PATH/bin/felix.jar -Xlint:unchecked
 jar cfmv example3.jar tutorial_example3/manifest.mf -C ./classes tutorial/example3
 
+
+# Tutorial 4
+javac -d ./classes/ tutorial_example4/*.java -cp ./example2.jar:$LIB_PATH/bin/felix.jar -Xlint:unchecked
+jar cfmv example4.jar tutorial_example4/manifest.mf -C ./classes tutorial/example4
+
