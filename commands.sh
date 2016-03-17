@@ -14,3 +14,6 @@ javac -d ./classes/ tutorial_example1/*.java -cp $LIB_PATH/bin/felix.jar
 jar cfmv example1.jar tutorial_example1/manifest.mf -C ./classes tutorial/example1
 
 
+# Tutorial 2
+javac -d ./classes/ tutorial_example2/*.java -cp $LIB_PATH/bin/felix.jar
+jar cfmv example2.jar tutorial_example2/manifest.mf -C ./classes tutorial/example2
