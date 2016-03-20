@@ -47,3 +47,10 @@ jar cfmv example6.jar tutorial_example6/manifest.mf -C ./classes tutorial/exampl
 # Tutorial 7
 javac -d ./classes/ tutorial_example7/*.java -cp ./example6.jar:$LIB_PATH/bin/felix.jar -Xlint:unchecked
 jar cfmv example7.jar tutorial_example7/manifest.mf -C ./classes tutorial/example7
+
+
+# Tutorial 8
+# Not working: missing servicebinder jar file
+# SERVICEBINDER_PATH=???
+#javac -d ./classes/ tutorial_example8/*.java -cp ./example2.jar:./example6.jar:$SERVICEBINDER_PATH/servicebinder.jar:$LIB_PATH/bin/felix.jar
+#jar cfmv example8.jar tutorial_example8/manifest.mf -C ./classes tutorial/example8
